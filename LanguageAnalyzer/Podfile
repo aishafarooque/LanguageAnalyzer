@@ -1,0 +1,6 @@
+project '/Users/administrator/Documents/aisha/LanguageAnalyzer/LanguageAnalyzer.xcodeproj'
+
+target 'LanguageAnalyzer' do
+  use_frameworks!
+  pod 'MaterialComponents'
+end
