@@ -4,7 +4,8 @@
 
 LanguageAnalyzer can recognize a language and retreive parts of speech from sentences. 
 
-![Demo](LanguageAnalyzer/Media/demo2.gif = 250x250)
+![Demo]<img src="LanguageAnalyzer/Media/demo2.gif" width="100" height="100">
+# (LanguageAnalyzer/Media/demo2.gif = 250x250)
 
 # Installation
 Before launching LanguageAnalyzer in Xcode 12 or higher, install pods in your terminal using:
