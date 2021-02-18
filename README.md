@@ -4,7 +4,7 @@
 
 Before launching LanguageAnalyzer in Xcode, install pods in your terminal using:
 ```ruby
-pod try CalendarKit
+pod install
 ```
 
 # Contribute 
