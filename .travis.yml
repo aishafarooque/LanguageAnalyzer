@@ -1,4 +1,11 @@
+# language: swift
+# xcode_project: LanguageAnalyzer.xcodeproj # path to your xcodeproj folder
+# xcode_scheme: LanguageAnalyzer
+# xcode_destination: platform:iOS Simulator, id:1CED7FFD-E495-4BFD-B866-8A0EB1844B03, OS:11.4, name:iPhone X 
+
 language: swift
-xcode_project: LanguageAnalyzer.xcodeproj # path to your xcodeproj folder
-xcode_scheme: LanguageAnalyzer
-xcode_destination: platform=iOS Simulator,name=iPhone 11 Pro,OS=14.1
+osx_image: xcode12.2
+script:
+  - xcodebuild -scheme LanguageAnalyzer -workspace LanguageAnalyzer/LanguageAnalyzer.xcworkspace -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 11 Pro,OS=14.1' build test
+after_success:
+  - bash <(curl -s https://codecov.io/bash)
