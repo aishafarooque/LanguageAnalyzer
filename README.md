@@ -1,4 +1,4 @@
-# LanguageAnalyzer.v2
+# LanguageAnalyzer
 <a href="https://developer.apple.com/swift"><img src="https://img.shields.io/badge/swift5-compatible-4BC51D.svg?style=flat" alt="Swift 5 compatible" /></a>
 ![License](https://img.shields.io/github/license/JakeLin/SwiftWeather.svg?style=flat)
 
